@@ -1,0 +1,70 @@
+* {
+	background-color:  #00e6e6;
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: 'Valera Round', sans-serif;
+}
+
+
+.banner {
+	max-width: 100%;
+	display: block;
+	width: auto;
+	height: 252px; 
+	margin: auto;
+} /*two greys at top of page*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin: 20px 200px 20px 200px; 
+	
+} /*about, happy hounds, contact, etc*/
+
+li {
+    display: inline;
+	margin: 10px;
+	
+ 
+} /*about, happy hounds, contact, etc*/
+
+.headline {
+	color: #ff1a1a;
+	text-align: center;
+} /*welcome to kentucky greyhounds*/
+
+.tagline {
+	text-align: center;
+} /*we are dedicated to finding homes*/
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+
+
+
+
+.greyhound1 {
+	height: 252px;
+} /*greyhound on bed, second col*/
+
+
+/*===========
+Media Queries
+============*/
+
+@media (min-width: 769px) {
+
+}
